@@ -30,7 +30,7 @@ bounds = [0,1]
 norm = colors.BoundaryNorm(bounds, cmap.N)
 DEAD,ALIVE = 0,1
 
-mx,my = 20,20
+mx,my = 50,50
 X = np.zeros((mx,my))
 fig, ax = plt.subplots()
 im = plt.imshow(X,cmap,norm=norm)
